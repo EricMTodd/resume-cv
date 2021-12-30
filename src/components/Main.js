@@ -1,12 +1,15 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import About from './pages/About'
+import Skills from './pages/Skills'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 const Main = () => {
   return(
     <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </main>
   )
 }
