@@ -44,7 +44,7 @@ nav > a:hover, #about > p > a:hover {
 }
 
 p {
-  font-size: 20.8px;
+  font-size: 24px;;
 }
 
 ::-webkit-scrollbar {
@@ -86,6 +86,14 @@ p {
 }
 
 /* Id tags */
+#about {
+  overflow-y: scroll;
+}
+
+#about > hr {
+  margin-bottom: 30px;
+}
+
 #about > img {
   height: calc(40vh - 50px);
   border-radius: 50%;
@@ -113,6 +121,10 @@ p {
 
 #skills {
   height: 100%;
+}
+
+#skills > hr {
+  margin-bottom: 50px;
 }
 
 #skills > ul {
