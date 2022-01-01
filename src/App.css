@@ -26,20 +26,25 @@ nav {
   background-color: rgb(150, 150, 150);
   height: 50px;
   display: flex;
-  /* gap: 15px; */
   align-items: center;
   justify-content: space-around;
   padding-left: 15px;
   font-size: 28px;
 }
 
-nav > a {
+nav > a, #about > p > a {
   transition: 0.2s;
+  text-shadow: 0px 0px 0px white;
 }
 
-nav > a:hover {
-  text-shadow: 0px 0px 6px white;
+nav > a:hover, #about > p > a:hover {
+  color: gold;
   transition: 0.2s;
+  text-shadow: 0px 0px 6px gold;
+}
+
+p {
+  font-size: 20.8px;
 }
 
 ::-webkit-scrollbar {
@@ -68,15 +73,51 @@ nav > a:hover {
   padding: 50px;
 }
 
+.container > h1 {
+  color: gold;
+  text-shadow: 0px 0px 6px gold;
+
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  height: 25vh;
+}
+
 /* Id tags */
-#contact, #contact > a {
+#about > img {
+  height: calc(40vh - 50px);
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-right: 50px;
+  float: left;
+}
+
+#contact {
   height: calc(30vh - 50px);
   display: flex;
   justify-content: space-around;
+}
+
+#contact > a {
+  display: flex;
+  height: calc(30vh - 50px);
   transition: 0.2s;
 }
 
 #contact > a:hover {
   height: calc(32vh - 50px);
   transition: 0.2s;
+}
+
+#skills {
+  height: 100%;
+}
+
+#skills > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
 }

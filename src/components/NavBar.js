@@ -1,7 +1,7 @@
 const NavBar = () => {
   return(
     <nav>
-      <a href="#about">About</a> | 
+      <a href="#about">Eric M. Todd</a> | 
       <a href="#skills">Skills</a> | 
       <a href="#projects">Projects</a> | 
       <a href="#education">Education</a> | 
