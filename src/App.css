@@ -26,10 +26,20 @@ nav {
   background-color: rgb(150, 150, 150);
   height: 50px;
   display: flex;
-  gap: 15px;
+  /* gap: 15px; */
   align-items: center;
+  justify-content: space-around;
   padding-left: 15px;
   font-size: 28px;
+}
+
+nav > a {
+  transition: 0.2s;
+}
+
+nav > a:hover {
+  text-shadow: 0px 0px 6px white;
+  transition: 0.2s;
 }
 
 ::-webkit-scrollbar {
@@ -59,6 +69,14 @@ nav {
 }
 
 /* Id tags */
-#contact {
+#contact, #contact > a {
   height: calc(30vh - 50px);
+  display: flex;
+  justify-content: space-around;
+  transition: 0.2s;
+}
+
+#contact > a:hover {
+  height: calc(32vh - 50px);
+  transition: 0.2s;
 }
