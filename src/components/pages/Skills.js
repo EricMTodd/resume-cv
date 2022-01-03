@@ -10,7 +10,7 @@ const Skills = () => {
           <h2><li>JavaScript</li></h2>
         </div>
         <div className="skills-container" id="skill-container-bravo">
-          <h2><li>Ruby on Rails</li></h2>
+          <h2><li>Rails</li></h2>
           <h2><li>Flexbox</li></h2>
           <h2><li>React</li></h2>
         </div>
