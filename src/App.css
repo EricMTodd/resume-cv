@@ -40,7 +40,7 @@ nav {
   overflow-x: scroll;
 }
 
-nav > a, #about > p > a {
+nav > a {
   transition: 0.2s;
   text-shadow: 0px 0px 6px black;
 }
@@ -79,16 +79,20 @@ ul {
 }
 
 .container {
-  height: calc(100vh - 135px);
   width: 80vw;
   margin: 0 auto;
   padding: 50px;
+  text-shadow: 0px 0px 10px black;
 }
 
 .container > h1 {
   color: gold;
   text-shadow: 0px 0px 6px gold;
+}
 
+.employment-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .skills-container {
@@ -98,11 +102,6 @@ ul {
 }
 
 /* Id tags */
-#about {
-  overflow-y: scroll;
-  text-shadow: 0px 0px 10px black;
-}
-
 #about > hr {
   margin-bottom: 30px;
 }
@@ -110,8 +109,8 @@ ul {
 #about > a > img {
   height: calc(40vh - 50px);
   border-radius: 50%;
-  margin-bottom: 11.3px;
-  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-right: 45px;
   float: left;
   border: 2px solid gold;
 }
@@ -133,18 +132,6 @@ ul {
   transition: 0.2s;
 }
 
-#skills {
-  height: 100%;
-  text-shadow: 0px 0px 10px black;
-}
-
 #skills > hr {
   margin-bottom: 50px;
-}
-
-#skills > ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: space-around;
 }
