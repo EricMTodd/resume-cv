@@ -92,13 +92,22 @@ ul {
 
 .employment-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.employment-container > h2 {
+  flex: 1 1 50%;
 }
 
 .skills-container {
   display: flex;
-  justify-content: space-around;
-  height: 25vh;
+  flex-wrap: wrap;
+}
+
+.skills-container > h2 {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 33.333%;
 }
 
 /* Id tags */
