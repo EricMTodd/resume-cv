@@ -14,6 +14,7 @@ const Employment = () => {
         <h2>Press Assisstant - Superior Ink</h2>
         <h2>Warehouse Associate - First Nation Group</h2>
         <h2>Shipping and Receiving - Namify</h2>
+        <h2>Press Assisstant - Namify</h2>
       </div>
     </div>
   )
