@@ -37,7 +37,6 @@ nav {
   align-items: center;
   justify-content: space-around;
   font-size: 28px;
-  overflow-x: scroll;
 }
 
 nav > a {
