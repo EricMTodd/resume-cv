@@ -3,7 +3,7 @@ import Main from './components/Main'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <NavBar />
       <Main />
     </div>

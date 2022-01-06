@@ -1,145 +1,27 @@
-/* Default tags */
 * {
-  color: white;
   font-family: 'fira sans';
-}
-
-a {
-  text-decoration: none;
 }
 
 body {
   margin: 0 auto;
-  background-color: rgb(25, 25, 25);
-}
-
-h1 {
-  margin-top: 0;
-}
-
-hr {
-  border-color: gold;
-}
-
-li {
-  list-style: none;
 }
 
 main {
-  height: 100vh;
+  height: calc(100vh - 50px);
   overflow-y: scroll;
 }
 
 nav {
-  background-color: rgb(150, 150, 150);
+  background-color: gray;
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 28px;
 }
 
-nav > a {
-  transition: 0.2s;
-  text-shadow: 0px 0px 6px black;
+main {
 }
 
-nav > a:hover, #about > p > a:hover {
-  color: gold;
-  transition: 0.2s;
-  text-shadow: 0px 0px 6px gold;
-}
-
-p {
-  font-size: 24px;;
-}
-
-ul {
-  padding: 0;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-/* Class tags */
-.App {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.alpha {
-  background-color: rgb(75, 75, 75);
-}
-
-.bravo {
-  background-color: rgb(50, 50, 50);
-}
-
-.container {
-  width: 80vw;
-  margin: 0 auto;
-  padding: 50px;
-  text-shadow: 0px 0px 10px black;
-}
-
-.container > h1 {
-  color: gold;
-  text-shadow: 0px 0px 6px gold;
-}
-
-.employment-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.employment-container > h2 {
-  flex: 1 1 50%;
-}
-
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skills-container > h2 {
-  display: flex;
-  justify-content: center;
-  flex: 1 1 33.333%;
-}
-
-/* Id tags */
-#about > hr {
-  margin-bottom: 30px;
-}
-
-#about > a > img {
-  height: calc(40vh - 50px);
-  border-radius: 50%;
-  margin-bottom: 15px;
-  margin-right: 45px;
-  float: left;
-  border: 2px solid gold;
-}
-
-#contact {
-  height: calc(30vh - 50px);
-  display: flex;
-  justify-content: space-around;
-}
-
-#contact > a {
-  display: flex;
-  height: calc(30vh - 50px);
-  transition: 0.2s;
-}
-
-#contact > a:hover {
-  height: calc(32vh - 50px);
-  transition: 0.2s;
-}
-
-#skills > hr {
-  margin-bottom: 50px;
+@media (max-width: 600px) {
+  nav {
+    position: absolute;
+    right: -100%;
+  }
 }
