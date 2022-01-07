@@ -11,17 +11,22 @@ main {
   overflow-y: scroll;
 }
 
-nav {
-  background-color: gray;
-  height: 50px;
-}
-
-main {
-}
-
 @media (max-width: 600px) {
-  nav {
-    position: absolute;
-    right: -100%;
+  /* Nav styles */  
+  .collapsed-nav {
+    text-decoration: none;
+    background-color: rgba(50, 50, 50, 0.8);
   }
+  
+.nav-links > a {
+  color: white;
+  text-decoration: none;
+}
+
+  .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
 }
