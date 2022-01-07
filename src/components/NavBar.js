@@ -5,9 +5,11 @@ const NavBar = () => {
   }
 
   return(
-    <nav className="collapsed-nav">
-      <button onClick={toggleNav}>Click me!</button>
-      <div className="nav-links">
+    <nav>
+      <div id="nav-button-track">
+        <button onClick={toggleNav} className="collapsed-nav-button">X</button>
+      </div>
+      <div id="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
