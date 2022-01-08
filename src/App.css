@@ -1,20 +1,53 @@
-* {
-  font-family: 'fira sans';
+/* Desktop styles */
+@media (min-width: 600px) {
+  * {
+    font-family: 'fira sans';
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  main {
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+  }
+
+  #nav-button-track {
+    display: none;
+  }
 }
 
-body {
-  margin: 0 auto;
-}
-
-main {
-  height: calc(100vh - 50px);
-  overflow-y: scroll;
-}
-
+/* Mobile styles */
 @media (max-width: 600px) {
-  /* Nav styles */
+  * {
+    font-family: 'fira sans';
+    overflow-x: hidden;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  main {
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /* Id styles */
+  #about {
+    font-size: 24px;
+  }
+  
   #nav-button-track {
     height: 50px;
+    width: 100%;
     background-color: rgba(50, 50, 50, 0.8);
   }
   
@@ -41,6 +74,22 @@ main {
     text-decoration: none;
   }
   
+  #portrait {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* Class styles */
+  .container {
+   padding-left: 10px;
+   padding-right: 10px;
+  }
+
   .display-links {
     transform: translate(0);
     transition: 0.6s;
@@ -49,5 +98,9 @@ main {
   .hidden-links {
     transform: translate(-100%);
     transition: 0.6s;
+  }
+
+  .restrict-scroll {
+    overflow: hidden;
   }
 }
