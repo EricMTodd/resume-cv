@@ -1,13 +1,21 @@
 const NavBar = () => {
 
-  const toggleNav = () => {
-    console.log("Hello world!");
+  const toggleNav = (event) => {
+    const navLinks = document.querySelector("#nav-links");
+    console.log(navLinks);
+    if (navLinks.className === "hidden-links") {
+      navLinks.classList.remove("hidden-links");
+      navLinks.classList.add("display-links");
+    } else {
+      navLinks.classList.remove("display-links");
+      navLinks.classList.add("hidden-links");
+    }
   }
 
   return(
     <nav>
       <div id="nav-button-track">
-        <button onClick={toggleNav} className="collapsed-nav-button">X</button>
+        <button onClick={toggleNav} id="nav-button" className="hidden-button">X</button>
       </div>
       <div id="nav-links" className="hidden-links">
         <a href="#about">About</a>
