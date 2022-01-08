@@ -9,7 +9,7 @@ const NavBar = () => {
       <div id="nav-button-track">
         <button onClick={toggleNav} className="collapsed-nav-button">X</button>
       </div>
-      <div id="nav-links">
+      <div id="nav-links" className="hidden-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
