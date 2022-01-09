@@ -56,6 +56,12 @@
     width: 50px;
     font-size: 32px;
   }
+
+  #nav-icon {
+    padding: 12px 10px 10px 10px;
+    height: 23px;
+    width: 32px;
+  }
   
   #nav-links {
     width: 100%;
@@ -85,9 +91,19 @@
   
   
   /* Class styles */
+  .collapsed-icon {
+    transform: rotate(0deg);
+    transition: 0.6s;
+  }
+
   .container {
    padding-left: 10px;
    padding-right: 10px;
+  }
+
+  .expanded-icon {
+    transform: translate(90vw) rotate(90deg);
+    transition: 0.6s;
   }
 
   .display-links {
