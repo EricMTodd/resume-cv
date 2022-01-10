@@ -24,10 +24,25 @@
     font-family: 'fira sans';
     overflow-x: hidden;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
   
   body {
     height: 100vh;
     margin: 0 auto;
+  }
+
+  h1 {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+  }
+
+  hr {
+    border-color: gold;
+    box-shadow: 0 0 5px gold;
   }
 
   main {
@@ -45,10 +60,30 @@
     font-size: 24px;
   }
   
+  #contact {
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #contact > a > img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    transition: 0.2s;
+  }
+
+  #contact > a > img:hover {
+    height: 110px;
+    width: 110px;
+    transition: 0.2s;
+  }
+  
   #nav-button-track {
     height: 50px;
     width: 100%;
-    background-color: rgba(50, 50, 50, 0.8);
+    background-color: rgba(25, 25, 25, 0.8);
   }
   
   #nav-button-track > button {
@@ -65,7 +100,7 @@
   
   #nav-links {
     width: 100%;
-    background-color: rgba(50, 50, 50, 0.8);
+    background-color: rgba(25, 25, 25, 0.8);
     height: calc(100% - 50px);
     font-size: 64px;
     display: flex;
@@ -89,8 +124,15 @@
     margin-right: auto;
   }
   
-  
   /* Class styles */
+  .alpha {
+    background-color: rgba(50, 50, 50, 1);
+  }
+
+  .bravo {
+    background-color: rgba(100, 100, 100, 1);
+  }
+
   .collapsed-icon {
     transform: rotate(0deg);
     transition: 0.6s;
@@ -99,6 +141,7 @@
   .container {
    padding-left: 10px;
    padding-right: 10px;
+   color: white;
   }
 
   .expanded-icon {
@@ -118,5 +161,12 @@
 
   .restrict-scroll {
     overflow: hidden;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
   }
 }
