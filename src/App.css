@@ -1,4 +1,4 @@
-/* Desktop styles */
+/* -----Desktop styles----- */
 @media (min-width: 600px) {
   * {
     font-family: 'fira sans';
@@ -18,7 +18,7 @@
   }
 }
 
-/* Mobile styles */
+/* -----Mobile styles----- */
 @media (max-width: 600px) {
   * {
     font-family: 'fira sans';
