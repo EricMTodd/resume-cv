@@ -2,7 +2,6 @@ const About = () => {
   return(
     <div className="container alpha" id="about">
       <h1>Eric M. Todd</h1>
-      <hr />
       <a href="https://github.com/EricMTodd" target="_blank" rel="noreferrer"><img id="portrait" src="/eric.png" alt="Eric" /></a>
       <p>Hailing from Provo Utah and currently residing Glendale Colorado, I am a passionate producer of visual design as well as an eternal student of computer science. I have been exposed to computers all my life. I eagerly learned to use them in order to facilitate my artistic, gaming, and programming interests. The early years of my design career began with sketching, which rapidly matured to graphic design using photoshop and illustrator. In 2010 I was introduced to HTML and CSS through an introductory web development class. I showed great aptitude in the class after already having several years of home-spun and graphic design experience. In 2012 I was introduced to Python through a basic robitcs and programming class. Little did I know that these two classes would become the foundation for my greatest passion in life.</p>
 
