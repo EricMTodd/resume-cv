@@ -7,7 +7,7 @@ const Skills = () => {
         <h2>HTML</h2>
         <h2>CSS</h2>
         <h2>JavaScript</h2>
-        <h2>Rails</h2>
+        <h2>Ruby on Rails</h2>
         <h2>Flexbox</h2>
         <h2>React</h2>
         <h2>Graphic Design</h2>

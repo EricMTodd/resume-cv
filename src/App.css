@@ -24,11 +24,6 @@
     font-family: 'fira sans';
     overflow-x: hidden;
   }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
   
   body {
     height: 100vh;
@@ -37,6 +32,7 @@
 
   h1 {
     color: gold;
+    overflow: visible;
     text-shadow: 0 0 10px gold;
   }
 
@@ -139,9 +135,8 @@
   }
 
   .container {
-   padding-left: 10px;
-   padding-right: 10px;
-   color: white;
+    color: white;
+    padding: 0 25px 0 25px;
   }
 
   .expanded-icon {
