@@ -185,7 +185,7 @@
   #nav-button-track {
     height: 50px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: rgba(25, 25, 25, 0.8);
   }
