@@ -171,6 +171,7 @@
   #contact {
     display: flex;
     height: 150px;
+    padding-bottom: 50px;
     justify-content: space-around;
     align-items: center;
   }
