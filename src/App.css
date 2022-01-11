@@ -128,11 +128,12 @@
   }
 
   html {
-    height: 100vh;
+    min-height: -webkit-fill-available;
   }
   
   body {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     margin: 0 auto;
     position: fixed;
   }
