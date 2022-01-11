@@ -146,6 +146,7 @@
   main {
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    margin-top: 50px;
   }
 
   ::-webkit-scrollbar {
@@ -184,7 +185,7 @@
   #nav-button-track {
     height: 50px;
     width: 100%;
-    position: relative;
+    position: fixed;
     background-color: rgba(25, 25, 25, 0.8);
   }
   
