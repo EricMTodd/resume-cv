@@ -185,6 +185,7 @@
     height: 50px;
     width: 100%;
     background-color: rgba(25, 25, 25, 0.8);
+    align-self: flex-start;
   }
   
   #nav-button-track > button {
