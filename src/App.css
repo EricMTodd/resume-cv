@@ -203,6 +203,7 @@
   
   #nav-links {
     width: 100%;
+    margin-top: 50px;
     background-color: rgba(25, 25, 25, 0.8);
     height: calc(100% - 50px);
     font-size: 64px;
