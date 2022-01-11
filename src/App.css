@@ -2,7 +2,7 @@
 @media (min-width: 600px) {
   /* Global styles */
   * {
-    font-family: 'fira sans';
+    font-family: 'fira sans', arial, sans-serif;
     overflow-x: hidden;
   }
 
@@ -123,7 +123,7 @@
 @media (max-width: 600px) {
   /* Global styles */
   * {
-    font-family: 'fira sans';
+    font-family: 'fira sans', arial, sans-serif;
     overflow-x: hidden;
   }
 
