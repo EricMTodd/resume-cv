@@ -16,6 +16,14 @@
     text-shadow: 0 0 10px gold;
   }
 
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
   hr {
     border-color: gold;
     box-shadow: 0 0 5px gold;
@@ -106,7 +114,7 @@
   
   .container {
     margin: 0 auto;
-    padding: 0 20% 0 20%;
+    padding: 0 20% 25px 20%;
     color: white;
   }
 }
@@ -142,6 +150,14 @@
     color: gold;
     overflow: visible;
     text-shadow: 0 0 10px gold;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
   }
 
   hr {
@@ -250,7 +266,7 @@
 
   .container {
     color: white;
-    padding: 0 25px 0 25px;
+    padding: 0 25px 25px 25px;
   }
 
   .expanded-icon {
