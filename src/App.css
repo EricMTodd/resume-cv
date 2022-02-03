@@ -6,6 +6,10 @@
     overflow-x: hidden;
   }
 
+  a {
+    overflow: visible;
+  }
+
   body {
     margin: 0 auto;
   }
@@ -101,7 +105,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   
   /* Class styles */
   .alpha {
@@ -117,13 +120,25 @@
     padding: 0 20% 25px 20%;
     color: white;
   }
-}
-
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
+  
+  .projects-container > a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .projects-container > a:hover {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+    transition: 0.2s;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
 }
 
 
